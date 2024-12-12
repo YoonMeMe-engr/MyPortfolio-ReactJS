@@ -1,5 +1,25 @@
 * {
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
     font-style: normal;
 }
+
+:root {
+    --yellow: #f5c32c;
+    --orange: #fca61f;
+    --black: #242d49;
+    --gray: #788097;
+    --blueCard: #ddf8fe;
+    --purple: rgb(238 210 255);
+    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smBoxShadow: -79px 51px 60px rgba(0,0,0,0.08);
+  }
+
+  .App {
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);
+    transition: .5s;
+  }
