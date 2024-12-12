@@ -1,13 +1,15 @@
 import { Link } from 'react-scroll'
 import './Navbar.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar() {
     return (
       <div className='flex justify-between items-center' id="Navbar">
-        <div className="nav-left flex-1">
+        <div className="nav-left">
             <div className="text-[#7fb8f9] navName text-[1.9rem]">Ms. Yoon Me Me</div>
         </div>
-        <div className="nav-right cursor-pointer flex-1 flex items-center space-x-8">
+        <div className="nav-right cursor-pointer flex items-center space-x-8">
             <ul className='flex space-x-8'>
                 <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-[#fca61f]'>
                     <li>Home</li>
@@ -26,10 +28,13 @@ export default function Navbar() {
                 </Link>                 
             </ul>
             <Link to='contact' spy={true} smooth={true}>
-                <button className="button w-[6.8rem] h-[4.3rem]">
+                <button className="button">
                         Contact Me
                 </button>
             </Link>
+            <button>
+                <FontAwesomeIcon icon={faBars} />
+            </button>
         </div>
       </div>
     )
