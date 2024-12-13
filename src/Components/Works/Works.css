@@ -1,0 +1,20 @@
+.w-button {
+    width: 7rem;
+    height: 2.5rem;
+}
+
+.w-mainCircle {
+    box-shadow: var(--smBoxShadow);
+}
+
+.blueCircle {
+    background: #7fb8f9;
+    left: 18rem;
+    top: 1rem;
+}
+
+.yellowCircle {
+    background: #F5C32C;
+    left: 18rem;
+    top: 11rem;
+}

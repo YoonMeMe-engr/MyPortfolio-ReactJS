@@ -3,6 +3,7 @@ import './App.css'
 import Intro from './Components/Intro/Intro'
 import Services from './Components/Services/Services'
 import Experiences from './Components/Experiences/Experiences'
+import Works from './Components/Works/Works'
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
         <Intro></Intro>
         <Services></Services>
         <Experiences></Experiences>
+        <Works></Works>
       </div>
     )
 }
