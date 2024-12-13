@@ -1,0 +1,26 @@
+.portfolio .swiper {
+    /* overflow: visible!important; */
+    width: 100%;
+    pointer-events: none;
+}
+
+.portfolio-slider {
+    /* margin-top: 3rem; */
+    width: 100%;
+    user-select: none;
+}
+
+.portfolio-slider .swiper-slide {
+    width: 25rem;
+    /* flex-shrink: inherit; */
+}
+
+.portfolio img {
+    width: 25rem; 
+    /* filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25)); */
+    border-radius: 19px;
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}

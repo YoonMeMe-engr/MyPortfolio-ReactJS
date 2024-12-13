@@ -72,8 +72,8 @@ export default function Works() {
             <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
         </div>
         <div className="w-right w-[50%] relative">
-          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 blueCircle"></div>
-          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 yellowCircle"></div>
+          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#7fb8f9] left-[18rem] top-[1rem]"></div>
+          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#F5C32C] left-[18rem] top-[11rem]"></div>
           <motion.div
           initial={{rotate: 45}}
           whileInView={{rotate: 0}}

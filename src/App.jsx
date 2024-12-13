@@ -4,6 +4,7 @@ import Intro from './Components/Intro/Intro'
 import Services from './Components/Services/Services'
 import Experiences from './Components/Experiences/Experiences'
 import Works from './Components/Works/Works'
+import Portfolio from './Components/Portfolio/Portfolio'
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
         <Services></Services>
         <Experiences></Experiences>
         <Works></Works>
+        <Portfolio></Portfolio>
       </div>
     )
 }
