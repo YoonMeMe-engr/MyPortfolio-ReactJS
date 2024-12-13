@@ -1,5 +1,7 @@
 import React from 'react'
 import './Intro.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faSquareGithub} from '@fortawesome/free-brands-svg-icons'
 
 export default function Intro() {
   return (
@@ -9,9 +11,9 @@ export default function Intro() {
             <div className="text-5xl font-bold text-[#fca61f]">Ms. Yoon Me Me</div>
             <div className="text-slate-500">Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</div>
             <button className='button intro-btn'>Hire Me</button>
-            {/* <div className="">
-                
-            </div> */}
+            <div className="">
+                <FontAwesomeIcon icon={faSquareGithub} />
+            </div>
         </div>
         <div className="intro-right"></div>
     </div>
