@@ -2,3 +2,52 @@
     width: 6.7rem;
     height: 3.1rem;
 }
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+    /* background: #edd0ff; */
+}
+
+.introBlur1 {
+    position: absolute;
+    background: #eeeeee;
+    top: 10%;
+    left: -10%;
+}
+
+.introBlur2 {
+    background: rgb(238 210 255);
+}
+
+.introBlur3 {
+    position: absolute;
+    background: khaki;
+    top: 17rem;
+    width: 21rem;
+    height: 11rem;
+    left: -9rem;
+}
+
+.introBlur4 {
+    position: absolute;
+    background: lightblue;
+    top: 19rem;
+    width: 21rem;
+    height: 11rem;
+    right: -1rem;
+}
+
+.introBlur5 {
+    position: absolute;
+    background: #a4a2a2;
+    top: 19rem;
+    left: 1rem;
+}
