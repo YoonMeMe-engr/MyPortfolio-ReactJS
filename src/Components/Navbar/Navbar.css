@@ -5,3 +5,8 @@
     font-weight: bold;
     font-style: normal;
 }
+
+.icon {
+    font-size: 2.5rem;
+    z-index: 3;
+}
