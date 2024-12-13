@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faSquareGithub} from '@fortawesome/free-brands-svg-icons'
+// import {faSquareGithub} from '@fortawesome/free-brands-svg-icons'
 
 export default function Intro() {
   return (
@@ -12,7 +12,7 @@ export default function Intro() {
             <div className="text-slate-500">Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</div>
             <button className='button intro-btn'>Hire Me</button>
             <div className="">
-                <FontAwesomeIcon icon={faSquareGithub} />
+                
             </div>
         </div>
         <div className="intro-right"></div>
