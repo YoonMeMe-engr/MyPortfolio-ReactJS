@@ -1,0 +1,30 @@
+.c-blur1 {
+    top: 245rem;
+    left: -3rem;
+    background: #ABF1FF94;
+}
+
+.c-blur2 {
+    top: 1rem;
+    left: 1rem;
+    background: var(--purple);
+}
+
+.user {
+    width: 20rem;
+    height: 3rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 5rem!important;
+}
+
+.w-btn {
+    width: 5rem;
+    height: 3rem;
+}

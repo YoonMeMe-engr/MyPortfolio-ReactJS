@@ -14,8 +14,8 @@ export default function Works() {
   return (
     <div className='works px-[3rem] flex items-center h-[90vh] mt-[4rem]'>
         <div className="w-left flex flex-col w-[50%]">
-            <h1 className='text-4xl font-bold'>Works for All these</h1>
-            <div className='text-4xl font-bold text-[#fca61f]'>Brands & Clients</div>
+            <h1 className='text-5xl font-bold'>Works for All these</h1>
+            <div className='text-5xl font-bold text-[#fca61f]'>Brands & Clients</div>
             <div className='mt-[1rem] space-y-2'>
                 <div className="flex">
                     <span className='mt-1'>

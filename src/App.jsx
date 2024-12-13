@@ -6,6 +6,7 @@ import Experiences from './Components/Experiences/Experiences'
 import Works from './Components/Works/Works'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Testimonial from './Components/Testimonial/Testimonial'
+import Contact from './Components/Contact/Contact'
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
         <Works></Works>
         <Portfolio></Portfolio>
         <Testimonial></Testimonial>
+        <Contact></Contact>
       </div>
     )
 }
