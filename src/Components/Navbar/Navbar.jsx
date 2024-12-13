@@ -10,7 +10,7 @@ export default function Navbar() {
         setMenuOpen(!menuOpen)
     }
     return (
-      <div className='flex justify-between items-center' id="Navbar">
+      <div className='flex justify-between items-center h-[10vh]' id="Navbar">
         <div className="nav-left">
             <div className="text-[#7fb8f9] navName text-[1.9rem]">Ms. Yoon Me Me</div>
         </div>

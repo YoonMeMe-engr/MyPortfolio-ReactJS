@@ -45,12 +45,12 @@ export default function Intro() {
             whileInView={{left: '-24%'}}
             transition={transition}
             src={GlassesEMOJI} alt=""
-            className='transform scale-[0.6] absolute -top-[5rem]' />
+            className='transform scale-[0.6] absolute -top-[3.5rem]' />
             <motion.div
-            initial={{left: '74%', top: '-4%'}}
-            whileInView={{left: '68%'}}
+            initial={{left: '70%', top: '-10%'}}
+            whileInView={{left: '65%'}}
             transition={transition}
-            className='floating-div absolute -top-[4%] -left-[50%]'
+            className='floating-div absolute top-[6%] left-[68%]'
             >
             <FloatingDiv image={Crown} txt1={'IT'} txt2={'Engineer'}></FloatingDiv>
             </motion.div>
