@@ -1,0 +1,5 @@
+.card {
+    border: 7px solid var(--orangeCard);
+    border-radius: 20px;
+    padding: 0 26px 2rem;
+}
