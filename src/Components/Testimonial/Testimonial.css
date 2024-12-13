@@ -1,0 +1,34 @@
+.t-heading {
+    align-self: start;
+}
+
+.t-blur1 {
+    left: 52rem;
+    top: 25rem;
+    background: var(--purple);
+}
+
+.t-blur2 {
+    top: 16rem;
+    left: 9rem;
+    background: skyblue;
+}
+
+.testimonial {
+    box-shadow: var(--boxShadow);
+}
+
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.t-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active {
+    background: var(--orange);
+}
