@@ -38,20 +38,20 @@ export default function Intro() {
                 </div>
             </div>
             <div className="intro-right relative mt-40 lg:mt-0">
-                <img className='absolute transform scale-[1.6] md:scale-[.85] lg:scale-[0.77] -left-[2%] md:-left-[3%] lg:-left-[8%] -top-[5%] md:-top-[3%] lg:-top-[5%]' src={Vector1} alt="" />
-                <img className='absolute transform scale-[1.5] md:scale-[0.8] left-[1rem] -top-[2rem]' src={Vector2} alt="" />
-                <img className='absolute transform scale-[1.4] md:scale-[1.3] md:left-[21%] -top-[10rem] md:-top-[3%]' src={YMMPhoto} alt="" />
+                <img className='dark:z-50 absolute transform scale-[1.6] md:scale-[.85] lg:scale-[0.77] -left-[2%] md:-left-[3%] lg:-left-[8%] -top-[5%] md:-top-[3%] lg:-top-[5%]' src={Vector1} alt="" />
+                <img className='dark:z-50 absolute transform scale-[1.5] md:scale-[0.8] left-[1rem] -top-[2rem]' src={Vector2} alt="" />
+                <img className='dark:z-50 absolute transform scale-[1.4] md:scale-[1.3] md:left-[21%] -top-[10rem] md:-top-[3%]' src={YMMPhoto} alt="" />
                 <motion.img
                 initial={{left: '-36%'}}
                 whileInView={{left: '-24%'}}
                 transition={transition}
                 src={GlassesEMOJI} alt=""
-                className='transform scale-[0.6] absolute -top-[3.5rem] hidden md:flex' />
+                className='dark:z-50 transform scale-[0.6] absolute -top-[3.5rem] hidden md:flex' />
                 <motion.div
                 initial={{left: '70%', top: '-10%'}}
                 whileInView={{left: '65%'}}
                 transition={transition}
-                className='floating-div absolute top-[6%] left-[68%]'
+                className='floating-div absolute top-[6%] left-[68%] dark:z-50'
                 >
                 <FloatingDiv image={Crown} txt1={'IT'} txt2={'Engineer'}></FloatingDiv>
                 </motion.div>
@@ -59,7 +59,7 @@ export default function Intro() {
                 initial={{left: '9rem', top: '18rem'}}
                 whileInView={{left: '-8rem'}}
                 transition={transition}
-                className='floating-div absolute top-[18rem] -left-[6rem]'
+                className='floating-div absolute top-[18rem] -left-[6rem] dark:z-50'
                 >
                 <FloatingDiv image={ThumbUp} txt1={'Telecom'} txt2={'Engineer'}></FloatingDiv>
                 </motion.div>
@@ -67,15 +67,15 @@ export default function Intro() {
                 initial={{right: '-15rem', top: '22rem'}}
                 whileInView={{right: '-1rem'}}
                 transition={transition}
-                className='floating-div absolute top-[23rem] -right-[1rem]'
+                className='floating-div absolute top-[23rem] -right-[1rem] dark:z-50'
                 >
                 <FloatingDiv image={Happy} txt1={'Web'} txt2={'Development'}></FloatingDiv>
                 </motion.div>
-                <div className="blur introBlur1"></div>
-                <div className="blur introBlur2"></div>
-                <div className="blur introBlur3"></div>
-                <div className="blur introBlur4"></div>
-                <div className="blur introBlur5"></div>
+                <div className="blur introBlur1 dark:z-10"></div>
+                <div className="blur introBlur2 dark:z-10"></div>
+                <div className="blur introBlur3 dark:z-10"></div>
+                <div className="blur introBlur4 dark:z-10"></div>
+                <div className="blur introBlur5 dark:z-10"></div>
             </div>
         </div>
     </div>

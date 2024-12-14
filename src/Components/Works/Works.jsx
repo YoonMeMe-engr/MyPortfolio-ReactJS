@@ -73,8 +73,8 @@ export default function Works() {
             <div className="blur w-blur"></div>
         </div>
         <div className="w-right relative mt-20 lg:mt-0">
-          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#7fb8f9] left-[6.5rem] md:left-[18rem] -top-[1rem] md:top-[1rem]"></div>
-          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#F5C32C] left-[6.5rem] md:left-[18rem] top-[6rem] md:top-[11rem]"></div>
+          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#7fb8f9] left-[6.5rem] md:left-[18rem] -top-[1rem] md:top-[1rem] dark:-z-0"></div>
+          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#F5C32C] left-[6.5rem] md:left-[18rem] top-[6rem] md:top-[11rem] dark:-z-0"></div>
           <motion.div
           initial={{rotate: 45}}
           whileInView={{rotate: 0}}

@@ -3,6 +3,7 @@ import './Navbar.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
+import DarkMode from './DarkMode'
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -11,10 +12,13 @@ export default function Navbar() {
     }
     return (
       <div className='flex justify-between items-center h-[10vh]' id="Navbar">
-        <div className="nav-left">
+        <div className="nav-left flex items-center space-x-5">
             <div className="text-[#7fb8f9] navName text-[1.9rem]">Ms. Yoon Me Me</div>
+            <div className="">
+                <DarkMode></DarkMode>
+            </div>
         </div>
-        <div className="nav-right cursor-pointer flex items-center space-x-8">
+        <div className="nav-right cursor-pointer flex items-center space-x-8 dark:z-50">
             <ul className='lg:space-x-8 hidden lg:flex'>
                 <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-[#fca61f]'>
                     <li>Home</li>

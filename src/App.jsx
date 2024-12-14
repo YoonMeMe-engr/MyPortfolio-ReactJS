@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer'
 
 export default function App() {
     return (
-      <div className='App'>
+      <div className='App dark:bg-slate-900 dark:text-white duration-200'>
         <Navbar></Navbar>
         <Intro></Intro>
         <Services></Services>
