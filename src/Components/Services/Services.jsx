@@ -11,7 +11,8 @@ export default function Services() {
     const transition = {duration : 2, type: 'spring'}
   return (
     <div className='services px-[3rem] h-[90vh] flex mb-[23rem] md:mb-[13rem]' id='Services'>
-        <div className="s-left lg:w-[50%]">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="s-left">
             <h1 className='text-4xl md:text-[2.5rem] font-bold'>My Awesome</h1>
             <div className='text-5xl font-bold text-[#fca61f]'>Services</div>
             <p className='text-slate-500 mt-[1rem]'>I share a lot of knowledge related with IT fields, Telecom fields, Web Development
@@ -22,7 +23,7 @@ export default function Services() {
             </a>
             <div className="blur s-blur1"></div>
         </div>
-        <div className="cards mt-0 lg:w-[50%] relative">
+        <div className="cards mt-0 relative">
           <motion.div
           initial={{left: '10rem', top: '0rem'}}
           whileInView={{left: '20rem'}}
@@ -61,6 +62,7 @@ export default function Services() {
 
           <div className="blur s-blur2"></div>
         </div>
+      </div>
     </div>
   )
 }
