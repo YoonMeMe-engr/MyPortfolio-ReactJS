@@ -42,7 +42,7 @@ export default function Navbar() {
                     <FontAwesomeIcon icon={menuOpen ? faXmark : faBars} />
                 </button>
                 {menuOpen && (
-                    <ul className='flex flex-col fixed h-[15rem] w-[30rem] md:h-[30rem] md:w-[60rem] justify-center bg-slate-700 md:text-3xl text-xl space-y-5 md:space-y-10 left-52 md:left-96 md:bottom-[28rem] px-10 md:px-20'>
+                    <ul className='flex flex-col fixed h-[15rem] w-[30rem] md:h-[30rem] md:w-[60rem] justify-center bg-white md:text-3xl text-xl space-y-5 md:space-y-10 left-52 md:left-96 md:bottom-[28rem] px-10 md:px-20 z-20'>
                     <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-[#fca61f]'>
                         <li>Home</li>
                     </Link>

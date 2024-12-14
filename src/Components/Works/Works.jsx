@@ -12,11 +12,11 @@ import {faCircleCheck} from '@fortawesome/free-regular-svg-icons'
 
 export default function Works() {
   return (
-    <div className='works px-[3rem] flex items-center h-[90vh] mt-[4rem]'>
-        <div className="w-left flex flex-col w-[50%]">
+    <div className='works px-[3rem] lg:flex items-center h-[90vh] mt-[4rem]'>
+        <div className="w-left lg:flex lg:flex-col lg:w-[50%]">
             <h1 className='text-5xl font-bold'>Works for All these</h1>
             <div className='text-5xl font-bold text-[#fca61f]'>Brands & Clients</div>
-            <div className='mt-[1rem] space-y-2'>
+            <div className='mt-[2rem] lg:mt-[1rem] space-y-2'>
                 <div className="flex">
                     <span className='mt-1'>
                         <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
@@ -69,9 +69,9 @@ export default function Works() {
             <Link to='contact' smooth={true} spy={true}>
               <button className='button w-button'>Hire Me</button>
             </Link>
-            <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
+            <div className="blur w-blur"></div>
         </div>
-        <div className="w-right w-[50%] relative">
+        <div className="w-right lg:w-[50%] relative mt-10 lg:mt-0">
           <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#7fb8f9] left-[18rem] top-[1rem]"></div>
           <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#F5C32C] left-[18rem] top-[11rem]"></div>
           <motion.div

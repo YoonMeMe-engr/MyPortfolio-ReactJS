@@ -32,3 +32,17 @@
 .t-wrapper .swiper-pagination-bullet-active {
     background: var(--orange);
 }
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .t-blur1 {
+        left: 30rem;
+        top: 40rem;
+        background: var(--purple);
+    }
+    
+    .t-blur2 {
+        top: 18rem;
+        left: -3rem;
+        background: skyblue;
+    }
+}

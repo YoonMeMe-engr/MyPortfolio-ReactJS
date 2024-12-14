@@ -10,9 +10,9 @@ import './Services.css'
 export default function Services() {
     const transition = {duration : 2, type: 'spring'}
   return (
-    <div className='services px-[3rem] h-[90vh] flex mb-[13rem]' id='Services'>
-        <div className="s-left w-[50%]">
-            <h1 className='text-[2.5rem] font-bold'>My Awesome</h1>
+    <div className='services px-[3rem] h-[90vh] lg:flex mb-[13rem]' id='Services'>
+        <div className="s-left lg:w-[50%]">
+            <h1 className='text-4xl md:text-[2.5rem] font-bold'>My Awesome</h1>
             <div className='text-5xl font-bold text-[#fca61f]'>Services</div>
             <p className='text-slate-500 mt-[1rem]'>I share a lot of knowledge related with IT fields, Telecom fields, Web Development
                 fields and other related fields on my own YouTube Channel and I search my career with engineer position in trending industries.
@@ -22,7 +22,7 @@ export default function Services() {
             </a>
             <div className="blur s-blur1"></div>
         </div>
-        <div className="cards w-[50%] relative">
+        <div className="cards md:mt-10 lg:mt-0 lg:w-[50%] relative">
           <motion.div
           initial={{left: '10rem', top: '0rem'}}
           whileInView={{left: '20rem'}}

@@ -15,8 +15,8 @@ import FloatingDiv from './FloatingDiv/FloatingDiv'
 export default function Intro() {
     const transition = {duration : 2, type: 'spring'}
   return (
-    <div className='intro h-[77vh] mt-[6rem] mb-[10rem] flex'>
-        <div className="intro-left space-y-5 w-[50%]">
+    <div className='intro h-[77vh] mt-[3rem] lg:mt-[6rem] mb-[10rem] lg:flex'>
+        <div className="intro-left space-y-5 lg:w-[50%]">
             <h1 className='text-5xl font-bold'>I am</h1>
             <div className="text-5xl font-bold text-[#fca61f]">Ms. Yoon Me Me</div>
             <div className="text-slate-500">Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</div>
@@ -36,16 +36,16 @@ export default function Intro() {
                 </a>
             </div>
         </div>
-        <div className="intro-right relative w-[50%]">
-            <img className='absolute transform scale-[0.77] -left-[8%] -top-[5%]' src={Vector1} alt="" />
-            <img className='absolute transform scale-[0.8] left-[1rem] -top-[2rem]' src={Vector2} alt="" />
-            <img className='absolute transform scale-[1.3] left-[21%] -top-[3%]' src={YMMPhoto} alt="" />
+        <div className="intro-right relative mt-32 lg:mt-0 lg:w-[50%]">
+            <img className='absolute transform scale-[1.6] md:scale-[.85] lg:scale-[0.77] -left-[2%] md:-left-[3%] lg:-left-[8%] -top-[5%] md:-top-[3%] lg:-top-[5%]' src={Vector1} alt="" />
+            <img className='absolute transform scale-[1.5] md:scale-[0.8] left-[1rem] -top-[2rem]' src={Vector2} alt="" />
+            <img className='absolute transform scale-[1.4] md:scale-[1.3] md:left-[21%] -top-[10rem] md:-top-[3%]' src={YMMPhoto} alt="" />
             <motion.img
             initial={{left: '-36%'}}
             whileInView={{left: '-24%'}}
             transition={transition}
             src={GlassesEMOJI} alt=""
-            className='transform scale-[0.6] absolute -top-[3.5rem]' />
+            className='transform scale-[0.6] absolute -top-[3.5rem] hidden md:flex' />
             <motion.div
             initial={{left: '70%', top: '-10%'}}
             whileInView={{left: '65%'}}

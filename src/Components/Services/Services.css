@@ -6,11 +6,12 @@
 
 .s-blur1 {
     top: 65rem;
-    left: -18rem;
+    left: -15rem;
     background: rgb(240, 229, 78);
 }
 
 .s-blur2 {
     top: 14rem;
     left: 15rem;
+    background: var(--purple);
 }

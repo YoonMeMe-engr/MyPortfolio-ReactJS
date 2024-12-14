@@ -1,5 +1,5 @@
 .c-blur1 {
-    top: 245rem;
+    top: 280rem;
     left: -3rem;
     background: #ABF1FF94;
 }
@@ -27,4 +27,18 @@ textarea {
 .w-btn {
     width: 5rem;
     height: 3rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .c-blur1 {
+        top: 330rem;
+        left: -3rem;
+        background: #ABF1FF94;
+    }
+    
+    .c-blur2 {
+        top: 1rem;
+        left: 7rem;
+        background: var(--purple);
+    }
 }
