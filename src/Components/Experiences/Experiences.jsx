@@ -3,7 +3,7 @@ import './Experiences.css'
 
 export default function Experiences() {
   return (
-    <div className='experience flex justify-center items-center gap-[8rem] h-[30vh] mb-[3rem]' id='Experiences'>
+    <div className='experience flex justify-center items-center gap-8 md:gap-[8rem] h-[30vh] mb-[3rem]' id='Experiences'>
         <div className="achievement flex flex-col items-center">
             <div className="circle">9 +</div>
             <span>years</span>

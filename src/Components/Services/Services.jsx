@@ -10,7 +10,7 @@ import './Services.css'
 export default function Services() {
     const transition = {duration : 2, type: 'spring'}
   return (
-    <div className='services px-[3rem] h-[90vh] lg:flex mb-[13rem]' id='Services'>
+    <div className='services px-[3rem] h-[90vh] flex mb-[23rem] md:mb-[13rem]' id='Services'>
         <div className="s-left lg:w-[50%]">
             <h1 className='text-4xl md:text-[2.5rem] font-bold'>My Awesome</h1>
             <div className='text-5xl font-bold text-[#fca61f]'>Services</div>
@@ -22,7 +22,7 @@ export default function Services() {
             </a>
             <div className="blur s-blur1"></div>
         </div>
-        <div className="cards md:mt-10 lg:mt-0 lg:w-[50%] relative">
+        <div className="cards mt-0 lg:w-[50%] relative">
           <motion.div
           initial={{left: '10rem', top: '0rem'}}
           whileInView={{left: '20rem'}}

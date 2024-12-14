@@ -13,10 +13,21 @@
     background: #ABF1FF94;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .w-blur {
         top: 198rem;
         left: -15rem;
         background: #ABF1FF94;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .w-mainCircle {
+        position: static;
+    }
+
+    .w-right {
+        transform: scale(.8);
+        left: -1rem;
     }
 }

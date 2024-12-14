@@ -20,7 +20,7 @@
 
 .t-wrapper .swiper {
     width: 100%;
-    height: 70%;
+    height: 60%;
 }
 
 .t-wrapper .swiper-slide {
@@ -33,7 +33,7 @@
     background: var(--orange);
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .t-blur1 {
         left: 30rem;
         top: 40rem;
@@ -44,5 +44,12 @@
         top: 18rem;
         left: -3rem;
         background: skyblue;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .t-wrapper .swiper {
+        width: 100%;
+        height: 100%;
     }
 }

@@ -14,9 +14,9 @@ export default function Footer() {
       return (
         <div className="flex items-center relative -mt-[1rem] -my-[.5rem] -mx-[3.5rem]">
             <img src={Wave} alt="" className=''/>
-            <div className="absolute flex flex-col items-center justify-center w-[100%] mt-[5rem] gap-[2rem]">
+            <div className="absolute flex flex-col items-center justify-center w-[100%] mt-[7rem] md:mt-[5rem] md:gap-[2rem]">
                 <span className='text-[1.5rem]'>yoonmeme.engr@gmail.com</span>
-                <div className="flex">
+                <div className="flex mb-9 md:mb-0">
                     <a href="https://www.youtube.com/@Engr.YoonMeMe" target='_blank'>
                         <img src={YouTube} alt="" className='transform scale-[.57]'/>
                     </a>

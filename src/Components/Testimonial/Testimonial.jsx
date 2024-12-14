@@ -27,7 +27,7 @@ export default function Testimonial() {
         }
     ]
   return (
-    <div className='t-wrapper px-[3rem] h-[100vh] flex flex-col justify-center items-center mt-[4rem] gap-[2rem] relative' id='Testimonial'>
+    <div className='t-wrapper px-[3rem] h-[100vh] flex flex-col justify-center items-center md:mt-[4rem] gap-[2rem] relative' id='Testimonial'>
         <div className="t-heading">
             <span className='text-5xl font-bold'>Clients always get </span>
             <span className='text-5xl font-bold text-[#fca61f]'>Exceptional Work </span>
@@ -48,7 +48,7 @@ export default function Testimonial() {
             {sources.map((source, index) => {
                 return(
                     <SwiperSlide key={index}>
-                        <div className="flex flex-col items-center justify-evenly p-[2rem] w-[35rem] h-[20rem] bg-[rgba(255, 255, 255, 0.26)] border-8 border-[#ddf8fe] rounded-[20px] gap-[1rem] testimonial">
+                        <div className="flex flex-col items-center justify-evenly p-[2rem] w-[35rem] h-[36rem] md:h-[20rem] bg-[rgba(255, 255, 255, 0.26)] border-8 border-[#ddf8fe] rounded-[20px] gap-[1rem] testimonial">
                             <img src={source.img} alt="" className='w-[6rem] h-[6rem] rounded-full'/>
                             <span className='text-slate-500] text-[1rem]'>{source.selfReflection}</span>
                         </div>

@@ -52,13 +52,13 @@
     left: 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 990px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .intro-right {
         transform: scale(.8);
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
     .intro-right {
         transform: scale(.6);
     }
