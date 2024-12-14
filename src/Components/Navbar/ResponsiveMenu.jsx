@@ -16,19 +16,19 @@ export default function ResponsiveMenu({open}) {
                 >
                     <div className="text-xl uppercase bg-[lightblue] text-white py-10 m-6 rounded-3xl flex justify-center">
                         <ul className='flex flex-col justify-center gap-10 cursor-pointer'>
-                            <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-[#fca61f]'>
+                            <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-primary'>
                                 <li>Home</li>
                             </Link>
-                            <Link spy={true} to='Services' smooth={true} className='hover:text-[#fca61f]'>
+                            <Link spy={true} to='Services' smooth={true} className='hover:text-primary'>
                                 <li>Services</li>
                             </Link>
-                            <Link spy={true} to='Experiences' smooth={true} className='hover:text-[#fca61f]'>
+                            <Link spy={true} to='Experiences' smooth={true} className='hover:text-primary'>
                                 <li>Experiences</li>
                             </Link>
-                            <Link spy={true} to='Portfolio' smooth={true} className='hover:text-[#fca61f]'>
+                            <Link spy={true} to='Portfolio' smooth={true} className='hover:text-primary'>
                                 <li>Portfolio</li>
                             </Link>
-                            <Link spy={true} to='Testimonial' smooth={true} className='hover:text-[#fca61f]'>
+                            <Link spy={true} to='Testimonial' smooth={true} className='hover:text-primary'>
                                 <li>Testimonials</li>
                             </Link>                 
                         </ul>

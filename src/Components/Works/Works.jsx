@@ -16,53 +16,53 @@ export default function Works() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="w-left lg:flex lg:flex-col">
             <h1 className='text-5xl font-bold'>Works for All these</h1>
-            <div className='text-5xl font-bold text-[#fca61f]'>Brands & Clients</div>
+            <div className='text-5xl font-bold text-primary'>Brands & Clients</div>
             <div className='mt-[2rem] lg:mt-[1rem] space-y-2'>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>Provided detail information in Daily Traffic Analysis & Network Performance</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>Analyzed, troubleshot and enhanced network performance to drive efficiency</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>support the decision makers for issuing radio frequency authorization</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>band planning in-line with the Radio Regulation (RR), International Telecommunications Union (ITU)</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''> creating the design and layout of a website or web pages</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>keeping up to date with design trends and technological, software and accessibility developments</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>Develop UI mockups and prototypes that showcase site functionality and appearance</p>
                 </div>
                 <div className="flex">
                     <span className='mt-1'>
-                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-[#fca61f] mb-[1rem]' />
+                        <FontAwesomeIcon icon={faCircleCheck} className='mr-[1rem] text-primary mb-[1rem]' />
                     </span>
                     <p className=''>Optimize applications for maximum speed and scalability</p>
                 </div>
@@ -74,7 +74,7 @@ export default function Works() {
         </div>
         <div className="w-right relative mt-20 lg:mt-0">
           <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#7fb8f9] left-[6.5rem] md:left-[18rem] -top-[1rem] md:top-[1rem] dark:-z-0"></div>
-          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-[#F5C32C] left-[6.5rem] md:left-[18rem] top-[6rem] md:top-[11rem] dark:-z-0"></div>
+          <div className="absolute w-[13rem] h-[13rem] rounded-full -z-10 bg-primary left-[6.5rem] md:left-[18rem] top-[6rem] md:top-[11rem] dark:-z-0"></div>
           <motion.div
           initial={{rotate: 45}}
           whileInView={{rotate: 0}}

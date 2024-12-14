@@ -17,7 +17,7 @@ export default function Portfolio() {
   return (
     <div className='portfolio flex justify-center items-center flex-col h-[70vh] mt-[5rem]' id='Portfolio'>
         <h1 className='text-4xl font-bold'>Recent Projects</h1>
-        <div className='text-4xl font-bold text-[#fca61f] mb-[3rem]'>Portfolio</div>
+        <div className='text-4xl font-bold text-primary mb-[3rem]'>Portfolio</div>
         <Swiper
         modules={[Autoplay]}
         slidesPerView={'auto'}

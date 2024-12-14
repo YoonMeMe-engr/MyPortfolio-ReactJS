@@ -20,8 +20,8 @@ export default function DarkMode() {
     }, [theme]);
   return (
     <div className='relative'>     
-        <FontAwesomeIcon onClick={() => setTheme(theme === "light" ? "dark" : "light")} icon={faSun} className={`text-[#fca61f] text-xl cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10 ${theme === "dark" ? "opacity-0" : "opacity-100"}`}/>
-        <FontAwesomeIcon onClick={() => setTheme(theme === "light" ? "dark" : "light")} icon={faMoon} className={`text-[#fca61f] text-xl cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${theme === "light" ? "opacity-0" : "opacity-100"}`}/>
+        <FontAwesomeIcon onClick={() => setTheme(theme === "light" ? "dark" : "light")} icon={faSun} className={`text-primary text-xl cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10 ${theme === "dark" ? "opacity-0" : "opacity-100"}`}/>
+        <FontAwesomeIcon onClick={() => setTheme(theme === "light" ? "dark" : "light")} icon={faMoon} className={`text-primary text-xl cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${theme === "light" ? "opacity-0" : "opacity-100"}`}/>
     </div>
   )
 }

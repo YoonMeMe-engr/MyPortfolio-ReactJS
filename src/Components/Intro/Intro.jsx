@@ -19,10 +19,10 @@ export default function Intro() {
         <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="intro-left space-y-5">
                 <h1 className='text-5xl font-bold'>I am</h1>
-                <div className="text-5xl font-bold text-[#fca61f]">Ms. Yoon Me Me</div>
+                <div className="text-5xl font-bold text-primary">Ms. Yoon Me Me</div>
                 <div className="text-slate-500">Engineer with high level of experiences in IT, Telecom and Web Development, producting the Quality work</div>
                 <button className='button intro-btn'>Hire Me</button>
-                <div className="intro-icon text-[2rem] text-[#fca61f] space-x-4">
+                <div className="intro-icon text-[2rem] text-primary space-x-4">
                     <a href="https://github.com/YoonMeMe-engr" target='_blank'>
                         <FontAwesomeIcon icon={faSquareGithub} />
                     </a>

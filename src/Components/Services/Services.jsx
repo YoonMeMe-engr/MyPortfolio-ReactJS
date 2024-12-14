@@ -14,7 +14,7 @@ export default function Services() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="s-left">
             <h1 className='text-4xl md:text-[2.5rem] font-bold'>My Awesome</h1>
-            <div className='text-5xl font-bold text-[#fca61f]'>Services</div>
+            <div className='text-5xl font-bold text-primary'>Services</div>
             <p className='text-slate-500 mt-[1rem]'>I share a lot of knowledge related with IT fields, Telecom fields, Web Development
                 fields and other related fields on my own YouTube Channel and I search my career with engineer position in trending industries.
             </p>

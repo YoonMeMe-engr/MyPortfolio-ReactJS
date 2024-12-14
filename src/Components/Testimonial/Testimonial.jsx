@@ -30,7 +30,7 @@ export default function Testimonial() {
     <div className='t-wrapper px-[3rem] h-[100vh] flex flex-col justify-center items-center md:mt-[4rem] gap-[2rem] relative' id='Testimonial'>
         <div className="t-heading">
             <span className='text-5xl font-bold'>Clients always get </span>
-            <span className='text-5xl font-bold text-[#fca61f]'>Exceptional Work </span>
+            <span className='text-5xl font-bold text-primary'>Exceptional Work </span>
             <span className='text-5xl font-bold'>from me...</span>
             <div className="blur t-blur1"></div>
             <div className="blur t-blur2"></div>

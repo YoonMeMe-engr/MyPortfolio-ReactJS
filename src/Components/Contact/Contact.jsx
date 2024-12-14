@@ -27,7 +27,7 @@ export default function Contact() {
     <div className='contact-form lg:flex px-[3rem] h-[80vh] mt-[4rem] lg:space-x-60' id='contact'>
         <div className="c-left mb-10 lg:mb-0">
             <h1 className='text-5xl font-bold'>Get in touch</h1>
-            <span className='text-5xl font-bold text-[#fca61f]'>Contact me</span>
+            <span className='text-5xl font-bold text-primary'>Contact me</span>
             <div className="blur c-blur1"></div>
         </div>
         <div className="flex justify-center relative">

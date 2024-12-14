@@ -18,19 +18,19 @@ export default function Navbar() {
         </div>
         <div className="nav-right cursor-pointer flex items-center space-x-8 dark:z-50">
             <ul className='lg:space-x-8 hidden lg:flex'>
-                <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-[#fca61f]'>
+                <Link spy={true} to='Navbar' smooth={true} activeClass='active' className='hover:text-primary'>
                     <li>Home</li>
                 </Link>
-                <Link spy={true} to='Services' smooth={true} className='hover:text-[#fca61f]'>
+                <Link spy={true} to='Services' smooth={true} className='hover:text-primary'>
                     <li>Services</li>
                 </Link>
-                <Link spy={true} to='Experiences' smooth={true} className='hover:text-[#fca61f]'>
+                <Link spy={true} to='Experiences' smooth={true} className='hover:text-primary'>
                     <li>Experiences</li>
                 </Link>
-                <Link spy={true} to='Portfolio' smooth={true} className='hover:text-[#fca61f]'>
+                <Link spy={true} to='Portfolio' smooth={true} className='hover:text-primary'>
                     <li>Portfolio</li>
                 </Link>
-                <Link spy={true} to='Testimonial' smooth={true} className='hover:text-[#fca61f]'>
+                <Link spy={true} to='Testimonial' smooth={true} className='hover:text-primary'>
                     <li>Testimonials</li>
                 </Link>                 
             </ul>
